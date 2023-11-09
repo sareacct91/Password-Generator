@@ -43,6 +43,7 @@ Generate a random password based on user inputs
 
 The perameters are:
 
+    password length between 8-128 characters
     Lowercase characters
     Uppercase characters
     Numeric characters
