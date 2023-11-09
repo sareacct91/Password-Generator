@@ -2,7 +2,7 @@
 
 ## Description
 
-This project will generates a random password based on user preferences.
+This application will generates a random password based on user preferences.
 
 ## Installation
 
