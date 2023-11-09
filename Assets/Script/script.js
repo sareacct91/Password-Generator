@@ -1,7 +1,6 @@
 // Assignment Code
 let generateBtn = document.querySelector("#generate");
 
-// Write password to the #password input
 const characterLists = {
   lowerCase: "abcdefghijklmnopqrstuvwxyz",
   upperCase: "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
@@ -58,13 +57,16 @@ function generatePassword() {
         : randomNum === 2 ? 'upperCase'
         : randomNum === 3 ? 'numeric'
         : 'special';
-
       // If the choice is valid (picked by user) i.e. true
+      // If not valid loop and pick again
       if (userInput[randomChoice]) {
+        // Get the list with that type of characters
         let pickedList = characterLists[randomChoice];
+        // Randomly pick one character from that list
         let pickedChar = pickedList[Math.floor(Math.random() * pickedList.length)];
-
+        // Add that character to the password string
         tempPassword += String(pickedChar);
+        // End the loop
         isValid = true;
       }
     }
@@ -73,6 +75,7 @@ function generatePassword() {
   return tempPassword;
 }
 
+// Write password to the #password input
 function writePassword() {
   const password = generatePassword();
   const passwordText = document.querySelector("#password");
