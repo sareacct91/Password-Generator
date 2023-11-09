@@ -36,3 +36,14 @@ If an invalid input was typed, then an alert will show up saying invalid input. 
 If everything was input correctly, a random password based on the user preferenced will appear in the box.
 
 ![Genereated password in the box.](./Assets/images/ss-generated.jpg)
+
+## Features
+
+Generate a random password based on user inputs
+
+The perameters are:
+
+    Lowercase characters
+    Uppercase characters
+    Numeric characters
+    Special characters
