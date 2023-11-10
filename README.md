@@ -18,18 +18,20 @@ The first prompt will ask for a number between 8 - 128.
 
 ![A prompt that asks for a number between 8 - 128.](./Assets/images/ss-length.jpg)
 
-The rest of the prompts will be a Yes or No question for the types of character that the password will contain.
+If an invalid number was typed, then an alert will show up saying invalid input. The prompt will reappear and ask for the correct input.
+
+![The alert showing invalid input.](./Assets/images/ss-retry.jpg)
+
+The rest of the confirmation will be a Yes or No question for the types of character that the password will contain.
 
     Lowercase
     Uppercase
     Numeric
     Special Character
 
-![A prompt that asks for a yes or no input.](./Assets/images/ss-yes-no.jpg)
+![A confirmation that take true/false input.](./Assets/images/ss-yes-no.jpg)
 
-If an invalid input was typed, then an alert will show up saying invalid input. The prompt will reappear and ask for the correct input.
 
-![The alert showing invalid input.](./Assets/images/ss-retry.jpg)
 
 If everything was input correctly, a random password based on the user preferenced will appear in the box.
 
