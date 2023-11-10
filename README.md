@@ -4,11 +4,9 @@
 
 This application will generates a random password based on user preferences.
 
-## Installation
+## Deployed Application
 
-No installation require.
-
-https://sareacct91.github.io/Password-Generator/
+Click [here](https://sareacct91.github.io/Password-Generator/) to access the deployed application.
 
 ## Usage
 
