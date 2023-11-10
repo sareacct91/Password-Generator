@@ -9,13 +9,13 @@ const characterLists = {
 };
 
 // Function to check if the user inputs are valid. Return valid input
-function checkUserInput(promtPar, numCheck) {
-  let inputTemp = numCheck ? prompt(promtPar)
+function checkUserInput(promtPar, isNum) {
+  let inputTemp = isNum ? prompt(promtPar)
     : confirm(promtPar);  
 
-  return numCheck ? 
+  return isNum ? 
     (inputTemp >= 8 && inputTemp <= 128 ? inputTemp 
-      : (alert('Please input a valid number!'), checkUserInput(promtPar, numCheck)))
+      : (alert('Please input a valid number!'), checkUserInput(promtPar, isNum)))
     : inputTemp;
 }
 
