@@ -5,7 +5,7 @@ const characterLists = {
   lowerCase: "abcdefghijklmnopqrstuvwxyz",
   upperCase: "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
   numeric: "0123456789",
-  special: "!@#$%^&*()_-=+[]{};:'`~,<.>/?|"
+  special: " !\"#$%&'()*+,-./:;<=>?@[\\\]^_`{|}~"
 };
 
 // Function to check if the user inputs are valid. Return valid input
